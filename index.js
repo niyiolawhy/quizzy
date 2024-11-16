@@ -53,6 +53,7 @@ function updateInterface() {
 
 function startQuiz() {
     startTimer(1*60)
+    score=0
   startScreen.style.display = "none";
   quizScreen.style.display = "block";
   questions.forEach((question) => {
